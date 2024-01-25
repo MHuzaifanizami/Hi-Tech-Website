@@ -1,0 +1,170 @@
+.card-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px 0px;
+    background-color: #ddb2dd;
+    ;
+}
+
+.card {
+    margin: 15px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+
+}
+.card-body a{
+    background-color: #5e2e5e;
+    border: none;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ................................footer.................................................. */
+
+.footer-sec {
+    background-color: rgb(20, 20, 20);
+}
+
+.footer-container {
+    padding: 0px 0px;
+}
+
+.footer-logo img {
+    height: 100px;
+    width: 200px;
+}
+
+.footer-para {
+    text-align: start;
+    line-height: 25px;
+    /* color: rgb(159, 153, 153); */
+    color: white;
+
+}
+
+.first {
+    width: 40%;
+}
+
+.second {
+    margin: 20px 12px;
+}
+
+.third {
+    margin: 20px 12px 0px 0px;
+}
+
+.forth {
+    margin: 20px 0px;
+}
+
+.footer-flex li {
+    list-style: none;
+    line-height: 2rem;
+    margin-top: 5px;
+    font-size: 15px;
+    /* color: rgb(159, 153, 153);*/
+    color: white;
+}
+
+.footer-flex h6 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    /* color: rgb(159, 153, 153); */
+    color: white;
+    text-align: center;
+}
+
+.footer-icon {
+    border-radius: 30px;
+    padding: 6px 6px;
+    background-color: #ED1C24;
+    margin: 0px 5px;
+    width: 27px;
+    text-align: center;
+
+}
+
+.playstore {
+    margin: 20px 15px 15px 0px;
+}
+
+.second-footer {
+    margin-top: 12px;
+    border-top: 1px solid rgb(141 131 131);
+    padding: 12px 150px;
+    /* color: rgb(159, 153, 153); */
+    color: white;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.bg {
+    background: #5e2e5e;
+    /* color: black; */
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,Display Flex Started,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,  */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+
+.align-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.wrap {
+    flex-wrap: wrap;
+
+}
